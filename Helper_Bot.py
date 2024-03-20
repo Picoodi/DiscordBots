@@ -25,7 +25,7 @@ class MyClient(discord.Client): #Klasse fuer den Bot
 
 
 
-    #Help Anfrage eines User. U can Modifie what the Bot says as u like it
+    #Help Anfrage eines User. You can Modifie what the Bot says as u like it
         if message.content.startswith("help"):
             await message.channel.send("Hello Im the Helper Bot of the Bot Server. Im here to help u with whatever u need.")
             await message.channel.send("If u ever need help again just type a message to me starting with <help>")
@@ -51,7 +51,7 @@ class MyClient(discord.Client): #Klasse fuer den Bot
       
     #Command will be uptdated in the furture or u can build it yourself
         if message.content.startswith("serverinfo"):
-            await message.channel.send("This command is still being build so far")
+            await message.channel.send("Here you can write what the bot shall say")
         
 
 
